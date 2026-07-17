@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<style>
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#f4f6f8;
+}
+
+nav{
+    background:#2c3e50;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f1c40f;
+}
+
+h1{
+    text-align:center;
+    color:#2c3e50;
+    margin-top:30px;
+}
+
+.container{
+
+    width:90%;
+    margin:auto;
+
+}
+
+.card{
+
+    background:white;
+    margin:35px 0;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+.card h2{
+
+    color:#2c3e50;
+
+}
+
+.card p{
+
+    color:#555;
+
+}
+
+img{
+
+    width:100%;
+    border-radius:8px;
+    margin-top:15px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="/">Home</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/predict">Prediction</a>
+
+</nav>
+
+<h1>📊 Energy Consumption Dashboard</h1>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Average Energy Consumption by Hour</h2>
+
+<p>
+
+This visualization shows how average energy usage changes throughout the day.
+
+</p>
+
+<img src="/static/energy_by_hour.png">
+
+</div>
+
+<div class="card">
+
+<h2>Distribution of Load Types</h2>
+
+<p>
+
+Displays the frequency of each industrial load category.
+
+</p>
+
+<img src="/static/energy_by_load_type.png">
+
+</div>
+
+<div class="card">
+
+<h2>Feature Correlation Heatmap</h2>
+
+<p>
+
+Illustrates the relationships between numerical variables used during analysis.
+
+</p>
+
+<img src="/static/correlation_heatmap.png">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

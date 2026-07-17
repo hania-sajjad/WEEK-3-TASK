@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Steel Industry Energy Prediction System</title>
+
+    <style>
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin:0;
+            background:#f4f6f8;
+        }
+
+        nav{
+            background:#2c3e50;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-weight:bold;
+            font-size:17px;
+        }
+
+        nav a:hover{
+            color:#f1c40f;
+        }
+
+        .hero{
+
+            text-align:center;
+            padding:60px 30px;
+
+        }
+
+        .hero h1{
+
+            color:#2c3e50;
+            font-size:42px;
+            margin-bottom:15px;
+
+        }
+
+        .hero p{
+
+            font-size:20px;
+            color:#555;
+
+        }
+
+        .cards{
+
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            margin:40px;
+
+        }
+
+        .card{
+
+            background:white;
+            width:300px;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0px 3px 12px rgba(0,0,0,.15);
+            text-align:center;
+
+        }
+
+        .card h2{
+
+            color:#2c3e50;
+
+        }
+
+        .card p{
+
+            color:#555;
+
+        }
+
+        .btn{
+
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 20px;
+            background:#2c3e50;
+            color:white;
+            text-decoration:none;
+            border-radius:6px;
+
+        }
+
+        .btn:hover{
+
+            background:#34495e;
+
+        }
+
+        footer{
+
+            margin-top:50px;
+            padding:20px;
+            text-align:center;
+            background:#2c3e50;
+            color:white;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/dashboard">Dashboard</a>
+
+<a href="/predict">Prediction</a>
+
+</nav>
+
+<div class="hero">
+
+<h1>⚡ Steel Industry Energy Prediction System</h1>
+
+<p>
+
+Machine Learning dashboard developed using
+FastAPI, Random Forest and Principal Component Analysis (PCA).
+
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>📊 Dashboard</h2>
+
+<p>
+
+Explore visualizations of energy consumption,
+load types and feature correlations.
+
+</p>
+
+<a href="/dashboard" class="btn">
+
+Open Dashboard
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🤖 Prediction</h2>
+
+<p>
+
+Predict energy consumption using
+our trained Random Forest model.
+
+</p>
+
+<a href="/predict" class="btn">
+
+Make Prediction
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🧠 Machine Learning Model</h2>
+
+<p>
+
+Model : Random Forest
+
+<br><br>
+
+Dimensionality Reduction :
+PCA (10 Components)
+
+<br><br>
+
+Target :
+Usage_kWh
+
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+Developed for ITSimplers Institute Internship • Week 3 Project
+
+</footer>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>📈 Model</h2>
+
+<p>
+
+Random Forest Regressor
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🧠 PCA</h2>
+
+<p>
+
+10 Principal Components
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎯 Target</h2>
+
+<p>
+
+Usage_kWh
+
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
