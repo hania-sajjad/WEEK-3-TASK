@@ -7,7 +7,7 @@ Dimensionality Reduction and FastAPI Dashboard
 
 This project predicts industrial energy consumption (`Usage_kWh`) using Machine Learning. The dataset was preprocessed, engineered, and reduced using Principal Component Analysis (PCA). A Random Forest Regression model was trained and deployed using FastAPI with an interactive web interface for real-time predictions.
 
-This project was completed as **Week 3 Internship Task** at **ITSimplers Institute**.
+This project was completed as **Week 3 Internship Task** at **ITSimplera Institute**.
 
 ---
 
